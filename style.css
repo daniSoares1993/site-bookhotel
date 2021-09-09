@@ -1,0 +1,770 @@
+/* formatações gerais */
+
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	background-color:#fff;
+	font-family: "Trebuchet MS" ,  sans-serif;
+}
+
+ul{
+	list-style: none;
+	display: flex;
+}
+
+li{
+	padding:15px;
+}
+
+a{
+	text-decoration: none;
+	color: black;
+}
+
+h1{
+	width: 380px;
+	font-size: 3em;
+	padding: 10px;
+}
+
+#container  {
+	margin: 0 auto;
+	width: 88vw;
+	height: 100%;
+}
+
+
+/* formatação menu */
+ header{
+ 
+ 	width: 101%;
+ 	height: 60px;
+ 	display: flex;
+ 	justify-content: space-between;
+ }
+
+ header h3{
+ 	padding-bottom: 15px;
+ 	padding-top: 15px;
+ 	padding-right: 15px;
+ 	cursor: pointer;
+ }
+
+#navBar{
+
+	width: 495px;
+	display: flex;
+	justify-content: space-between;
+}
+
+ #navBar a{
+ 	font-size: 1em;
+ 	font-weight: 600;
+ }
+
+ .botaoLogin{
+ 	padding: 8px 25px;
+ 	border-radius: 10px;
+ 	border: solid 1px #ccc;
+ }
+
+ .botaoLogin:hover{
+ 	background-color:transparent;
+	border: 2px solid #48D1CC;
+ 	color: #48D1CC;
+ 	transition: 0.2s linear;
+ 	border-radius: 10px;
+ }
+
+ /* layout central */
+
+ #layoutCenter{
+ 	height: 540px;
+ 	background-image: url(../Book-hotel/imagens/tropical-resort.jpg);
+ 	background-position: 0px -280px;
+ 	margin-top: -60px;
+ 	border-radius: 10px;
+ 	
+ }
+
+ section #areaConteudo1{
+ 	background-image: url(../Book-hotel/imagens/teste.png);
+ 	width: 50%;
+ 	height: 100%;
+ 	background-size:cover;
+ 	border-radius: 10px;
+ 	box-shadow: 150px 0px 150px 150px rgba(240,248,255,0.2);
+ 	
+ }
+
+ .conteudo1{
+ 	margin-top: 60px;
+ 	margin-left: 70px;
+ 	padding-top: 70px;
+ }
+
+ .conteudo1 p {
+ 	padding: 10px;
+ }
+
+ .verde{
+ 	color: green;
+ 	padding-left: 10px;
+ }
+
+.conteudo1 span img{
+	border: solid 1px rgb(220,220,220,0.6);
+	padding: 10px;
+	border-radius: 20px;
+	opacity: 0.7;
+}
+
+.conteudo1final{
+	display: flex;
+	align-items: center;
+}
+/* area conteudo2 */
+ section #areaConteudo2{
+ 	border: solid 2px rgb(220,220,220);
+ 	margin: -90px auto;
+ 	background-color: #fff;
+ 	border-radius: 15px;
+ 	width: 70vw;
+ 	height: 30vh;
+ 	display: flex;
+ 	justify-content: space-between;
+ 	box-shadow: 0px 50px 50px 10px rgb(211,211,211,0.4);
+
+ }
+
+ #areaConteudo2 div{
+ 	width: 33%;
+ 	height: 80px;
+ 	margin-top: 15px;
+ }
+
+ #areaConteudo2 .parte1{
+ 	width: 80%;
+ 	margin: 0 auto;
+ 	display: flex;
+ 	justify-content: space-between;
+ 	align-items: center;
+
+
+ }
+
+ .parte1 p{
+
+ 	font-size: 1.5em;
+ 	font-weight:900;
+
+ }
+
+ .parte1-span{
+ 	color:	#FF7F00;
+ 	font-size: 0.7em;
+ }
+
+ #areaConteudo2 .parte2{
+ 	width: 90%;
+ 	margin: 0 auto;
+ 	display: flex;
+ }
+
+ .parte2-itens{
+ 	text-align: center;
+ }
+
+ i.fa-swimmer , .fa-wifi {
+ 	color:#48D1CC;
+ 	border: solid 2px rgb(220,220,220);
+ 	padding: 10px;
+ 	margin-bottom: 5px;
+ 	border-radius: 10px;
+ }
+
+ i.fa-utensils , .fa-parking{
+ 	color:#FFA07A;
+ 	border: solid 2px rgb(220,220,220);
+ 	padding: 10px;
+ 	margin-bottom: 5px;
+  	border-radius: 10px;
+ }
+
+ }
+
+ .parte2-itens label {
+ 	font-size: 0.9em;
+ 	font-weight: 900;
+ 	border: solid 1px red;
+ }
+
+ #areaConteudo2-parte2{
+ 	padding:50px 10px;
+ 	text-align: center;
+ }
+
+  #areaConteudo2-parte2 h3{
+
+  	margin-top: -15px;
+  }
+
+   #areaConteudo2-parte2 p{
+   	color:  rgb(220,220,220);
+   	margin-top: 15px;
+   }
+
+    #areaConteudo2-parte2 a{
+    	border: solid 1px rgb(220,220,220);
+    	padding:10px 15px;
+    	border-radius: 10px;
+    	font-size: 0.9em;
+    }
+
+ /* area conteudo 3 */
+
+ #areaConteudo2-parte3{
+ 	padding-top: 30px;
+ }
+
+ input[type="text"]{
+ 	width: 200px;
+ 	height: 25px;
+ 	margin-left: 20px;
+ 	border-radius: 5px;
+ 	border:solid 2px #48D1CC;
+ 	text-transform: uppercase;
+ 	letter-spacing: 0.6px;
+ 	text-align: center;
+ 	color:black;
+ }
+
+ .fa-pen , .fa-search{
+ 	margin-left:20px;
+ 	font-size: 1.1em;
+ }
+
+.fa-pen{
+	color:rgb(220,220,220);
+} 
+
+.fa-search{
+
+	color:#48D1CC;
+}
+
+.areaConteudo2-parte3-parte1{
+	display: flex;
+	padding-top: 10px;
+}
+
+.areaConteudo2-parte3-parte1 span img{
+	padding: 10px;
+	border-radius: 50px;
+	cursor: pointer;
+	
+}
+
+.areaConteudo2-parte3-parte1 span img:hover{
+	padding: 8px;
+	border-radius: 50px;
+	cursor: pointer;
+	width: 70px;
+	margin-top: -20px;
+	transition: 0.5s linear;
+	
+}
+
+/* Carrousel */
+
+#carrousel {
+	width: 100%;
+	height: 420px;
+	margin-top: 130px;
+	z-index: 1;
+}
+
+#carrousel h1{
+	width: 100%;
+	text-align: center;
+	margin-top: 40px;
+}
+
+#conteudo-carrousel{
+	margin:20px auto;
+	width:80%;
+	height: 60%;
+	display: flex;
+
+}
+
+#conteudo-carrousel h4{
+	color: white;
+	margin-left: 20px;
+	margin-top: 25px;
+}
+#carrouselItem1{
+	width: 33%;
+	border-radius: 10px;
+	background-image: url(../Book-hotel/imagens/carrousel1.jpg);
+	background-size: cover;
+	background-position: 0px -30px;
+}
+
+
+
+.fa-list-alt{
+	padding: 10px;
+	background-color:rgb(220,220,220,0.5);
+	border-radius: 20px;
+	margin-left: 40px;
+}
+
+.estilos-carrousel{
+	background-color: white;
+	border-radius: 0px 0px 10px 10px;
+	height: 100px;
+	margin-top: 100px;
+}
+
+.estilos-carrousel p{
+	color: #FFA07A;
+	font-weight: 900;
+	padding-top: 12px;
+	padding-left: 12px;
+}
+
+.estilos-carrousel h6{
+	font-weight: 900;
+	font-size: 1em;
+	padding-left: 12px;
+}
+
+h6 img{
+	border: solid 1px #48D1CC;
+	border-radius: 20px;
+	padding: 10px;
+	margin-left: 80px;
+}
+
+.estilos-carrousel label{
+	color: rgb(220,220,220,0.8);
+	padding-left: 12px;
+}
+
+#carrouselItem2{
+	width: 33%;
+	margin-left: 40px;
+	border-radius: 10px;
+	background-image: url(../Book-hotel/imagens/carrousel2.jpg);
+	background-size: cover;
+	background-position: -220px -30px;
+}
+
+#carrouselItem3{
+	width: 33%;
+	margin-left: 40px;
+	border-radius: 10px;
+	background-image: url(../Book-hotel/imagens/carrousel3.jpg);
+	background-size: cover;
+	background-position: -120px  -30px;
+}
+
+#piso-carrousel{
+	border-radius: 20px;
+	margin-left:-14px;
+	margin-top: -120px;
+	width: 90vw;
+	height: 180px;
+	background-color:rgb(230,230,250,0.5);
+	z-index: 3;
+}
+
+/* footer */
+
+footer{
+	height: 10vh;
+	display: flex;
+	justify-content: space-between;
+	padding-top: 30px;
+	align-items: center;
+
+}
+
+footer i  {
+	padding: 10px;
+	font-size: 2em;
+}
+
+footer i:hover{
+	background-color:transparent;
+	border: 2px solid #48D1CC;
+ 	color: #48D1CC;
+ 	transition: 0.2s linear;
+ 	border-radius: 10px;
+}
+
+/* botao responsivo */
+input[type="checkbox"]{
+display: none;
+}
+
+#navBar label {
+	width: 50px;
+	height: 100%;
+	cursor: pointer;
+	display: none;
+}
+
+#navBar span {
+	width: 28px;
+	height: 5px;
+	background-color: black;
+	position: absolute;
+	top: 22px;
+	margin-left: 10px;
+	cursor: pointer;
+	display: none;
+}
+
+#navBar span:after{
+	content: '';
+	width: 28px;
+	height: 5px;
+	background-color: black;
+	position: absolute;
+	top: 10px;
+	cursor: pointer;
+	}
+#navBar span:before{
+	content: '';
+	width: 28px;
+	height: 5px;
+	background-color: black;
+	position: absolute;
+	top: -10px;
+	cursor: pointer;
+	}
+
+/* responsivo  */
+
+@media(max-width: 1000px){
+	
+	/* btn responsivo menu */
+
+	body{
+		overflow-x: hidden;
+	}
+
+
+	#navBar label{
+		border-radius: 10px;
+		display: flex;
+		position: fixed;
+		right: 20px;
+		height: 50px;
+		z-index: 1;
+	}	
+
+	#navBar span{
+		display: flex;
+		position: fixed;
+		right: 33px;
+		z-index: 2;
+	}
+
+	#navBar input:checked ~ span {
+		background-color: white;
+		transition: 0.5s;
+		background-color: transparent;
+		margin-top: 10px;
+	}	
+
+	#navBar input:checked ~ span:after {
+		background-color:white;
+		transition: 0.5s;
+		transform: rotate(398deg);
+		position: absolute;
+		top: -10px;
+
+	}	
+
+	#navBar input:checked ~ span:before {
+		background-color: white;
+		transition: 0.5s;
+		transform: rotate(510deg);
+	}	
+
+	input:checked ~ #teste2 ul {
+		margin-top:0px;
+		transition: 0.3s linear;
+	}
+
+
+	#teste2 ul{
+		border: solid 3px white;
+		border-radius: 10px;
+		margin-top: -600px;
+		width: 480px;
+		height: 595px;
+		position: relative;
+		display: block;
+		left:-115px;
+		background-color: #48D1CC;
+		z-index:0;
+	
+	}
+
+	#teste2 li{
+		
+		margin-top: 50px;
+		margin-left: 60px;
+		margin-right: 60px;
+		margin-bottom: 50px;
+		border-radius: 10px;
+		text-align: center;
+		cursor: pointer;
+	}
+	#teste2 li:hover{
+	border: solid 3px white;
+	}
+
+	#teste2 a{
+		color: white;
+		border: none;
+		text-transform: uppercase;
+		cursor: pointer;
+	}
+
+
+	/*  layout */
+
+	#layoutCenter{
+ 	height: 540px;
+ 	background-image: url(../Book-hotel/imagens/tropical-resort.jpg);
+ 	background-position: -300px -280px;
+ 	margin-top: -60px;
+ 	border-radius: 10px;
+ 	
+ }
+
+  section #areaConteudo1{
+ 	background-image: url(../Book-hotel/imagens/teste.png);
+ 	width: 50%;
+ 	height: 100%;
+ 	background-position: -370px 0px;
+ 	border-radius: 10px;
+ 	box-shadow: 150px 0px 150px 150px rgba(240,248,255,0.2);
+ 	
+ }
+
+ .conteudo1{
+ 	margin-top: 60px;
+ 	margin-left: 30px;
+ 	padding-top: 90px;
+ }
+
+ .conteudo1 p {
+ 	padding: 10px;
+ 	width: 340px;
+ }
+
+ .verde{
+ 	color: black;
+ 	padding-left: 10px;
+ }
+
+.conteudo1 span img{
+	border: solid 1px rgb(220,220,220,0.6);
+	padding: 10px;
+	border-radius: 20px;
+	opacity: 0.7;
+}
+
+.conteudo1final{
+	display: flex;
+	align-items: center;
+}
+
+/*  layout central */
+
+section #areaConteudo2{
+	display: none;
+}
+
+
+article #areaConteudo2-parte2{
+	display: none;
+}
+
+#areaConteudo2-parte3{
+	display: none;
+}
+
+/* carrousel */
+
+#carrousel {
+	width: 100%;
+	height: 1000px;
+	margin-top: 0px;
+}
+
+#carrousel label{
+	font-weight: bold;
+}
+
+#carrousel h1{
+	width: 100%;
+	text-align: center;
+	margin-top: 40px;
+}
+
+#conteudo-carrousel{
+	display: flex;
+	flex-direction: column;
+	height: 1000px;
+
+}
+#conteudo-carrousel #carrouselItem1:hover{
+	opacity: 0.8;
+	cursor: pointer;
+	box-shadow: 10px 10px 70px 5px #48D1CC;
+	transition: 0.3s linear;
+	
+}
+
+#conteudo-carrousel #carrouselItem2:hover{
+	opacity: 0.8;
+	cursor: pointer;
+	box-shadow: 10px 10px 70px 5px #48D1CC;
+	transition: 0.3s linear;
+	
+}
+
+#conteudo-carrousel #carrouselItem3:hover{
+	opacity: 0.8;
+	cursor: pointer;
+	box-shadow: 10px 10px 70px 5px #48D1CC;
+	transition: 0.3s linear;
+	
+}
+
+#conteudo-carrousel h4{
+	color: white;
+	margin-left: 20px;
+	margin-top: 25px;
+}
+#carrouselItem1{
+	width: 80%;
+	margin-bottom: 30px;
+	border-radius: 10px;
+	background-image: url(../Book-hotel/imagens/carrousel1.jpg);
+	background-size: cover;
+	background-position: 0px -30px;
+	position: relative;
+	left: 40px;
+}
+
+
+
+.fa-list-alt{
+	padding: 10px;
+	background-color:rgb(220,220,220,0.5);
+	border-radius: 20px;
+	margin-left: 40px;
+}
+
+.estilos-carrousel{
+	background-color: rgb(245,245,245);
+	border-radius: 0px 0px 10px 10px;
+	height: 100px;
+	margin-top: 100px;
+}
+
+.estilos-carrousel p{
+	color: #FFA07A;
+	font-weight: 900;
+	padding-top: 12px;
+	padding-left: 12px;
+
+}
+
+.estilos-carrousel h6{
+	font-weight: 900;
+	font-size: 1em;
+	padding-left: 12px;
+}
+
+h6 img{
+	border: solid 1px #48D1CC;
+	border-radius: 20px;
+	padding: 10px;
+	margin-left: 80px;
+}
+
+.estilos-carrousel label{
+	color: rgb(220,220,220,0.8);
+	padding-left: 12px;
+}
+
+#carrouselItem2{
+	width: 80%;
+	margin-bottom: 30px;
+	margin-left: 40px;
+	border-radius: 10px;
+	background-image: url(../Book-hotel/imagens/carrousel2.jpg);
+	background-size: cover;
+	background-position: -220px -30px;
+	position: relative;
+	
+}
+
+#carrouselItem3{
+	width: 80%;
+	margin-left: 40px;
+	border-radius: 10px;
+	background-image: url(../Book-hotel/imagens/carrousel3.jpg);
+	background-size: cover;
+	background-position: -120px  -30px;
+	position: relative;
+}
+
+#piso-carrousel{
+	display: none;
+}
+
+/* footer */
+
+footer{
+	height: 10vh;
+	display: flex;
+	justify-content: space-between;
+	padding-top: 30px;
+	align-items: center;
+
+}
+
+footer i  {
+	padding: 10px;
+	font-size: 2em;
+}
+
+footer i:hover{
+	background-color:transparent;
+	border: 2px solid #48D1CC;
+ 	color: #48D1CC;
+ 	transition: 0.2s linear;
+ 	border-radius: 10px;
+ 	cursor: pointer;
+}
+
+
+
+
+	
+}
+
+

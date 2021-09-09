@@ -1,12 +1,170 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Teste</title>
+	<title>Book Hotel</title>
+	<!-- meta tag -->
+	<meta charset="utf-8">
+	<meta name="viewport"  content="width=device-width initial-scale=1 shrink-to-fit=no">
+
+	<!-- css -->
+	<link rel="stylesheet" type="text/css" href="estilo-book.css">
+
+	<!-- fontawesome-->
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+
 </head>
 <body>
-    <h1>Hello world</h1>
+
+<!-- container pruncipal-->
+	<div  id="container">
+
+<!-- inicio header-->
+	<header id="menu">
+		<div id="logo">
+			<h3>MRstudio</h3>
+		</div>
+		<nav id="navBar">
+<!-- inicio btn hamburguer -->	
+			
+			<input type="checkbox" id="check">
+			<label for="check"></label>	
+			<span></span>
+			<div id="teste2">
+			<ul>
+				
+				<li><a href="">Home</a></li>
+				<li><a href="">About</a></li>
+				<li><a href="">Type of house</a></li>
+				<li><a href="">Contact</a></li>
+				<li><a href="" class="botaoLogin">Login</a></li>
+			
+			</ul>
+			</div>
+		
+<!-- final btn hamburguer -->		
+		</nav>
+		
+	</header>
+<!-- fim header -->	
+<!-- inicio layout central -->
+	<section id="layoutCenter">
+		<article  id="areaConteudo1">
+			
+			<div class="conteudo1">
+				<h1>Enjoy Your Dream Vacation</h1>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc id congue velit, in cursus augue. </p>
+				<p class="conteudo1final"><span><img src="../Book-hotel/imagens/tag.png" width="25" height="20"></span> <span class="verde">Warwick Hotels & Resorts<span></p>
+			</div>
+			
+		</article>
+		<article id="areaConteudo2">
+			<div id="areaConteudo2-parte1">
+				<div class="parte1">
+					<p>Facilities</p><span class="parte1-span">see more</span>
+				</div>
+				<div class="parte2">
+					<div class="parte2-itens">
+						<i class="fas fa-swimmer"></i><br>
+						<label>Swimming</label>
+					</div>
+					<div class="parte2-itens">
+						<i class="fas fa-utensils"></i><br>
+						<label>Dinner</label>
+					</div>
+					<div class="parte2-itens">
+						<i class="fas fa-wifi"></i><br>
+						<label>Wi-Fi</label>
+					</div>
+					<div class="parte2-itens">
+						<i class="fas fa-parking"></i><br>
+						<label>Parking</label>
+					</div>
+					
+				</div>
+
+				
+			</div>
+			<div id="areaConteudo2-parte2">
+				<h3>Hotels For You</h3>
+				<p>5 Days 6 Nights</p><br>
+				<a href="#"><i class="fas fa-check-circle" style="color: blue;margin-right: 10px;"></i><span>USD $506,97</span></a>
+
+			</div>
+			<div id="areaConteudo2-parte3" >
+				
+				<input type="text" placeholder="Insira um destino :"><i class="fas fa-pen"></i><i class="fas fa-search"></i>
+				<div class="areaConteudo2-parte3-parte1">
+					<span><img src="../Book-hotel/imagens/hotel-bali.jpg" width="40" height="40"></span>
+					<span><img src="../Book-hotel/imagens/hotel-maldivas.jpg" width="40" height="40"></span>
+					<span><img src="../Book-hotel/imagens/hotel-paisagem.jpg" width="40" height="40"></span>
+					<span><img src="../Book-hotel/imagens/hotel3.jpg" width="40" height="40"></span>
+					<span><img src="../Book-hotel/imagens/hotel4.jpg" width="40" height="40"></span>
+				</div>	
+				
+			</div>
+			
+		</article>
+		
+	</section>
+<!-- fim layout central -->
+<!-- layout carrousel -->
+	<section id="carrousel">	
+
+		<h1>Entire city of choice</h1>
+		<div id="conteudo-carrousel">
+			
+			<div id="carrouselItem1">
+				<div class="rodape-carrousel">
+					<h4>Majestic Resort-Hawaii <span><i class="fas fa-list-alt"></i></span></h4>
+					<div class="estilos-carrousel">
+						<p>$600.98</p>
+						<h6>Book ID:9837823 <span><img src="../Book-hotel/imagens/tag.png" width="25" height="20"></span></h6>
+						<label>Turkly Resort</label>
+					</div>
+				</div>
+			</div>
+			<div id="carrouselItem2">
+				<h4>Palm Beach - Sta. Marta  <span><i class="fas fa-list-alt"></i></span></h4>
+				<div class="estilos-carrousel">
+						<p>$490.98</p>
+						<h6>Book ID:8837823 <span><img src="../Book-hotel/imagens/tag.png" width="25" height="20"></span></h6>
+						<label>Spencil Resort</label>
+					</div>
+			</div>
+			<div id="carrouselItem3">
+				<h4>César's Casino - Las Vegas  <span><i class="fas fa-list-alt"></i></span></h4>
+				<div class="estilos-carrousel">
+						<p>$630.98</p>
+						<h6>Book ID:6781652 <span><img src="../Book-hotel/imagens/tag.png" width="25" height="20"></span></h6>
+						<label>Waterford Resort</label>
+					</div>
+			</div>
+		
+		</div>
+		<div  id="piso-carrousel">
+				
+		</div>
+		
+	</section>
+<!-- fim layout carrousel-->	
+<!-- footer-->
+	<footer>
+		
+		<p>
+			©Copyright - 1993-2020
+		</p>
+		<div>
+			<i class="fab fa-instagram"></i>
+			<i class="fab fa-twitter-square"></i>
+			<i class="fab fa-facebook-square"></i>
+			<i class="fab fa-linkedin"></i>
+		</div>
+
+	</footer>
+<!-- fim footer -->
+		
+
+	</div>
+<!-- final container principal -->
 </body>
 </html>
