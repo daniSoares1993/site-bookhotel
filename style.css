@@ -83,7 +83,7 @@ h1{
 
  #layoutCenter{
  	height: 540px;
- 	background-image: url(../Book-hotel/imagens/tropical-resort.jpg);
+ 	background-image: url(../site-bookhotel/imagens/tropical-resort.jpg);
  	background-position: 0px -280px;
  	margin-top: -60px;
  	border-radius: 10px;
@@ -91,7 +91,7 @@ h1{
  }
 
  section #areaConteudo1{
- 	background-image: url(../Book-hotel/imagens/teste.png);
+ 	background-image: url(../site-bookhotel/imagens/teste.png);
  	width: 50%;
  	height: 100%;
  	background-size:cover;
@@ -309,7 +309,7 @@ h1{
 #carrouselItem1{
 	width: 33%;
 	border-radius: 10px;
-	background-image: url(../Book-hotel/imagens/carrousel1.jpg);
+	background-image: url(../site-bookhotel/imagens/carrousel1.jpg);
 	background-size: cover;
 	background-position: 0px -30px;
 }
@@ -359,7 +359,7 @@ h6 img{
 	width: 33%;
 	margin-left: 40px;
 	border-radius: 10px;
-	background-image: url(../Book-hotel/imagens/carrousel2.jpg);
+	background-image: url(../site-bookhotel/imagens/carrousel2.jpg);
 	background-size: cover;
 	background-position: -220px -30px;
 }
@@ -368,7 +368,7 @@ h6 img{
 	width: 33%;
 	margin-left: 40px;
 	border-radius: 10px;
-	background-image: url(../Book-hotel/imagens/carrousel3.jpg);
+	background-image: url(../site-bookhotel/imagens/carrousel3.jpg);
 	background-size: cover;
 	background-position: -120px  -30px;
 }
@@ -544,7 +544,7 @@ display: none;
 
 	#layoutCenter{
  	height: 540px;
- 	background-image: url(../Book-hotel/imagens/tropical-resort.jpg);
+ 	background-image: url(../site-bookhotel/imagens/tropical-resort.jpg);
  	background-position: -300px -280px;
  	margin-top: -60px;
  	border-radius: 10px;
@@ -552,7 +552,7 @@ display: none;
  }
 
   section #areaConteudo1{
- 	background-image: url(../Book-hotel/imagens/teste.png);
+ 	background-image: url(../site-bookhotel/imagens/teste.png);
  	width: 50%;
  	height: 100%;
  	background-position: -370px 0px;
@@ -661,7 +661,7 @@ article #areaConteudo2-parte2{
 	width: 80%;
 	margin-bottom: 30px;
 	border-radius: 10px;
-	background-image: url(../Book-hotel/imagens/carrousel1.jpg);
+	background-image: url(../site-bookhotel/imagens/carrousel1.jpg);
 	background-size: cover;
 	background-position: 0px -30px;
 	position: relative;
@@ -715,7 +715,7 @@ h6 img{
 	margin-bottom: 30px;
 	margin-left: 40px;
 	border-radius: 10px;
-	background-image: url(../Book-hotel/imagens/carrousel2.jpg);
+	background-image: url(../site-bookhotel/imagens/carrousel2.jpg);
 	background-size: cover;
 	background-position: -220px -30px;
 	position: relative;
@@ -726,7 +726,7 @@ h6 img{
 	width: 80%;
 	margin-left: 40px;
 	border-radius: 10px;
-	background-image: url(../Book-hotel/imagens/carrousel3.jpg);
+	background-image: url(../site-bookhotel/imagens/carrousel3.jpg);
 	background-size: cover;
 	background-position: -120px  -30px;
 	position: relative;
